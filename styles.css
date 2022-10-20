@@ -1,0 +1,133 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Typography */
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Poppins', sans;
+}
+
+
+h1 {
+    font-weight: 300;
+    font-size: 58px;
+    letter-spacing: -0.5px;
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 46px;
+    letter-spacing: 0px;
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 33px;
+    letter-spacing: 0.25px;
+}
+
+h4 {
+    font-weight: 400;
+    font-size: 23px;
+    letter-spacing: 0px;
+}
+
+h5 {
+    font-weight: 400;
+    font-size: 19px;
+    letter-spacing: 0.15px;
+}
+
+p,
+span {
+    font-family: 'Lato', sans;
+    font-size: 15px;
+    letter-spacing: 0.25px;
+}
+
+/* Content styling */
+body {
+    padding: 2em;
+}
+
+section {
+    padding: 2em;
+    border-top: solid 1px black;
+}
+
+span {
+    color: gray;
+}
+
+.colors {
+    display: flex;
+    gap: 1em;
+}
+
+.palette {
+    width: 25%;
+    padding: 4em 0;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.off-white {
+    background-color: #F9F7F7;
+}
+
+.gray {
+    background-color: #DBE2EF;
+}
+
+.dark-blue {
+    background-color: #3F72AF;
+    color: white;
+}
+
+.dark-navy {
+    background-color: #112D4E;
+    color: white;
+}
+
+.lato {
+    font-family: 'Lato', sans;
+    margin-top: 1em;
+}
+
+.poppins {
+    font-family: 'Poppins', sans;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.fonts p {
+    padding: 0.25em;
+}
